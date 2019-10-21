@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <style>
+        form {
+            border: 3px solid #f1f1f1;
+            margin-left: 20%;
+            margin-right: 20%;
+            background: linear-gradient(#eeefef, #ffffff 10%);
+        }
+
+        h2 {
+            margin-left: 45%;
+            margin-bottom: 5%;
+        }
+
+        #div1 {
+            margin-left: 35%;
+        }
+
+        input {
+            width: 50%;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            padding: 5px;
+        }
+
+        button {
+            width: 90px;
+            height: 30px;
+            margin-left: 15%;
+            margin-bottom: 20px;
+        }
+
+        a {
+            margin-left: 10%;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+    <form action="http://192.168.1.89:3000/authenticate" method="POST">
+        <h2><b>LOGIN</b></h2>
+        <div id="div1">
+
+            <label for="userName"><b>Username</b></label><br>
+            <input type="text" placeholder="Enter Username" name="userName" id="input1">
+            <br>
+
+
+            <label for="Password"><b>Password</b></label><br>
+            <input type="text" placeholder="Enter Password" name="password" id="input2">
+            <br>
+            <!-- <label for="uname"><b>Employee-Id</b></label><br>
+                    <input type="number"  placeholder="Enter Employee Id" name="empId" id="input3">
+                <br> -->
+
+            <button type="submit">Login</button>
+            <br>
+
+            <a href="">Register a new Company</a>
+        </div>
+
+    </form>
+</body>
+
+</html>
